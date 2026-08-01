@@ -1,1 +1,0 @@
-Replace photo1.jpg-photo15.jpg in images folder. Edit index.html.
