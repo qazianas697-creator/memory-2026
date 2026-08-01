@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div id="hearts"></div>
+
+<!-- Loading Screen -->
+<div id="loading">
+
+    <div class="loader">
+
+        <h1>✨ A Special Surprise ✨</h1>
+
+        <p>Preparing something beautiful...</p>
+
+    </div>
+
+</div>
+
+<!-- Hero Section -->
+
+<section id="hero">
+
+    <h1>
+
+        Happy Birthday
+
+      <span id="name" contenteditable="true">Mano</span>
+
+        ❤️
+
+    </h1>
+
+    <p>
+
+        Today is all about celebrating someone very special.
+
+    </p>
+
+    <button onclick="showEnvelope()">
+
+        Open Surprise 💝
+
+    </button>
+
+</section>
+
+<!-- Envelope -->
+
+<section id="envelope">
+
+<div class="envelope" onclick="openLetter()">
+
+<div class="lid"></div>
+
+<div class="letterInside">
+
+❤️
+
+</div>
+
+<div class="base"></div>
+
+</div>
+
+<p class="hint">
+
+Click the envelope ❤️
+
+</p>
+
+</section>
+
+<!-- Letter -->
+
+<section id="letter">
+
+<div class="paper">
+
+<h2>
+
+My Dear ❤️
+
+</h2>
+
+<p id="typewriter"></p>
+
+<button onclick="showGallery()">
+
+Continue 🌸
+
+</button>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery">
+
+<h2>
+
+ Beautiful Memories 📸
+
+</h2>
+
+<div class="slider">
+
+<button class="nav" onclick="previousPhoto()">
+
+❮
+
+</button>
+
+<img
+id="sliderImage"
+src="images/photo1.jpeg"
+alt="Birthday Memory">
+
+<button class="nav" onclick="nextPhoto()">
+
+❯
+
+</button>
+
+</div>
+
+<div class="counter">
+
+<span id="photoCounter">
+
+1 / 15
+
+</span>
+
+</div>
+
+<button onclick="finish()">
+
+Final Surprise ✨
+
+</button>
+
+</section>
+
+<!-- Final Page -->
+
+<section id="end">
+
+<div class="glass">
+
+<h1>
+
+❤️ Happy Birthday My Forever Special❤️
+
+</h1>
+
+<h2>
+
+May all your dreams come true.
+
+</h2>
+
+<p>
+
+Thank you for being such an amazing person.
+
+I hope this little surprise makes you smile today.
+
+Wishing you happiness,
+
+good health,
+
+success,
+
+and endless beautiful memories.
+
+🎂🎉❤️
+<br><br>
+
+— From Your Med.Store 🌸
+
+
+</p>
+
+<button onclick="restartJourney()">
+
+Start Again 💖
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
